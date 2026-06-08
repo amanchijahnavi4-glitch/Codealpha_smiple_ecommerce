@@ -1,0 +1,17 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',sans-serif}
+body{background:#f4f6f9}
+.navbar{display:flex;justify-content:space-between;align-items:center;padding:15px 8%;background:#111827;color:#fff}
+.logo{font-size:28px;font-weight:bold}
+.search-box{display:flex;width:40%}
+.search-box input{width:100%;padding:12px}
+.search-box button{padding:12px 18px;background:#f59e0b;border:none;color:#fff}
+.nav-links{display:flex;list-style:none;gap:25px}
+.nav-links a{text-decoration:none;color:#fff}
+.hero{height:80vh;display:flex;justify-content:center;align-items:center;text-align:center;background:#222;color:#fff}
+.btn{padding:15px 30px;background:#f59e0b;color:#fff;text-decoration:none;border-radius:6px}
+.section{padding:60px 8%}
+.categories,.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.category,.product-card{background:#fff;padding:20px;border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,.1)}
+.product-info button{width:100%;padding:10px;margin-top:10px}
+.newsletter{background:#111827;color:#fff;text-align:center;padding:60px}
+footer{background:#000;color:#fff;text-align:center;padding:20px}
